@@ -3,55 +3,59 @@
 ## Overview
 TODO: Cool description / goal of what technology you are bringing onto the plate with what language. This should be sweet and concise.
 
+[Live Example](live/example/on/kintohub)
+
 __About KintoHub:__
 
-KintoHub empowers teams to ship ideas faster. Using an intuitive dashboard, engineers of all silos can effectively collaborate and deliver features and hotfixes with ease. Cloud-native apps are the new and proven golden standard in the software industry but require infrastructure experts and costly complex tooling to get started.  KintoHub has combined and abstracted the best-in-class enterprise technologies allow a single developer to rapidly ship features at massive scale with confidence. [Learn more here](https://www.kintohub.com)
-
-## Requirements
+KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More](https://www.kintohub.com)
+## [Optional] Requirements
 
 - Ensure you have an account on [KintoHub](www.kintohub.com/sign-up)
-- TODO: Any pre-reqs to list here
+- [Optional] Required Kintohub features: [list features] (like pro sub features)
+- [Optional] specific packages needed for project to run
 
 ## Deployment
 1. Apply this template to your [Github](https://github.com/kintohub/example-template/generate)
-2. Create a [KintoBlockType](www.link.to.create.kintoblock.type.here)
-3. Instructions on what to input in order to create KintoBlock
- 
-[Optional]
- ?. Click on "Build Arguments" and paste the following build args
-```dotenv
-key1=value
-key2=value
-```
-[Optional]
- ?. Click on "Settings" at the top left and paste the following into Environment Variables
-```dotenv
- key1=value
- key2=value
-```
+2. Create a [KintoBlockType](www.link.to.create.kintoblock.type.here) and include:
 
-You're now good to go! Click `Build Latest Commit` and once successful `Add To Project` to deploy.
+You're now good to build! Click `Build Latest Commit`. Once complete, Click  Now click `Add To Project`.
 
-### TODO:(Optional) Advance Configuration For Production
+3. Create Project and include:
 
-The above instructions are great for `dev` but if you want to setup `production` configuration, we recommend the following.
 
-TODO: Provide Instructions via Build Args and/or Kinto Configuration for production use. Ensure each explain tells why it makes it production ready (in one sentence - dont do lengthy!)
+You're ready to go live Click `Deploy`
+
+## Dep Specifics
+Use the following examples for build or deployment environment variables:
+
+* [.build-example](/.build-example)
+* [.env-dev](/.env-dev)
+* [.env-prod](/.env-dev)
+
+## Installation & Local Run
+
+1. npm install?
+2. npm run prod?
+
+## Test
+
+1. npm test
 
 
 ## Usage
+The following works with our [Live Example](live/example/endpoint):
 
-1. Provide
-2. Clear
-3. Instructions
-4. On
-5. How
-6. To
-7. Use or Access
+GET http://localhost:8080/hello
+
+response:
+{
+"hello": "world"
+}
+
 
 ## TODO: (Deleteme) Checklist
 
-- Create dev example
+- Create dev / prod example
 - Write clear instructions on how to add it to kintohub
 - (optional) write further instruction on how to fine tune it for production 
 - Create tags for the example repository (kintohub, examples, related technologies)
@@ -59,6 +63,9 @@ TODO: Provide Instructions via Build Args and/or Kinto Configuration for product
 - Double check call URLs and ensure they are appropriate to your username
 
 __Common Snippets:__
+
 Below are common urls/instructions that could be copy/pasted in some examples. (KintoBlock links, instructions for HA on KintoHub, etc)
 
 Please create PR for future snippets.
+
+
