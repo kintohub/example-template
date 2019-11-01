@@ -25,7 +25,7 @@ You're now good to build! Click `Build Latest Commit`. Once complete, Click  Now
 
 You're ready to go live Click `Deploy`
 
-## Dep Specifics
+## Build & Deployment Configurations
 Use the following examples for build or deployment environment variables:
 
 * [.build-example](/.build-example)
