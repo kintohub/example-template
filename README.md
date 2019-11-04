@@ -45,13 +45,17 @@ Use the following examples for build or deployment environment variables:
 ## Usage
 The following works with our [Live Example](live/example/endpoint):
 
+**API Call**
+```
 GET http://localhost:8080/hello
+```
 
-response:
+**Response**
+```
 {
 "hello": "world"
 }
-
+```
 
 ## TODO: (Deleteme) Checklist
 
